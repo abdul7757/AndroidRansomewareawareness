@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1667,18 +1667,5 @@
         </div>
     </div>
 </body>
-        function displayPersonalizedTips() {
-            var personalizedTipsContainer = document.getElementById("personalizedTips");
-            personalizedTips.forEach(function(tip) {
-                var tipHtml = "<div class='tip'>" +
-                                "<h3>" + tip.tip + "</h3>" +
-                                "<p>" + tip.description + "</p>" +
-                              "</div>";
-                personalizedTipsContainer.innerHTML += tipHtml;
-            });
-        }
-
-        // Call the function to display personalized tips when the page loads
-        window.onload = displayPersonalizedTips;
-    </script>
+    
 </body>
