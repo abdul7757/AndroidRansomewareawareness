@@ -968,39 +968,7 @@
 
 </body>   
  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personalized Tips for Cybersecurity</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #007bff;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-        .tip {
-            margin-bottom: 20px;
-            padding: 10px;
-            background-color: #f9f9f9;
-            border-left: 4px solid #007bff;
-            border-radius: 4px;
-        }
-    </style>
-</head>
+   
 <body>
     <div class="container">
         <h1>Personalized Tips for Cybersecurity</h1>
@@ -1325,7 +1293,7 @@
 </script>
 
 </body>
-            <head>
+        
     
 <body>
     <div class="container">
