@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -752,7 +751,7 @@
     </ul>
 </div>
 
-</body><head>
+</body>head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protecting Your Android Device from Ransomware</title>
@@ -886,8 +885,6 @@
 
     <p style="text-align: center;"><strong>Android Ransomware</strong><br>© 2024 Android Ransomware Awareness</p>
 </div>
-
-</body>
 
 </body><head>
     <meta charset="UTF-8">
@@ -1027,7 +1024,10 @@
             // Add more personalized tips as needed
         ];
 
-        // Function to display personalized tips<head>
+        // Function to display personalized tips
+        function displayPersonalizedTips() {
+            var personalizedTipsContainer = document.getElementById("personalizedTips");
+            personalizedTips.forEach(function(tip) {<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Share Cybersecurity Tips</title>
@@ -1388,134 +1388,7 @@
             </div>
         </div>
     </div>
-</body>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Android Ransomware Quiz</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            margin: 0;
-        }
-        .container {
-            margin: 50px auto;
-            width: 80%;
-            max-width: 600px;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .question {
-            font-size: 20px;
-            margin-bottom: 20px;
-        }
-        .options button {
-            display: block;
-            margin: 10px auto;
-            padding: 10px;
-            width: 80%;
-            max-width: 400px;
-            font-size: 16px;
-            cursor: pointer;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
-            border-radius: 5px;
-        }
-        .options button.correct {
-            background-color: #4CAF50;
-            color: white;
-        }
-        .options button.wrong {
-            background-color: #f44336;
-            color: white;
-        }
-        #next {
-            display: none;
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        .score {
-            font-size: 18px;
-            margin-top: 20px;
-            color: #333;
-        }
-        .result {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .pass {
-            color: #4CAF50;
-        }
-        .fail {
-            color: #f44336;
-        }
-        #user-info {
-            margin-top: 20px;
-        }
-        #user-info input {
-            padding: 10px;
-            font-size: 16px;
-            width: 80%;
-            max-width: 400px;
-            margin-bottom: 20px;
-        }
-        #user-info button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        #result-container {
-            display: none;
-        }
-        table {
-            width: 100%;
-            margin-top: 20px;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        .form-prompt {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-        .form-prompt a {
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-
-<head>
+</body><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Android Ransomware Quiz</title>
@@ -1795,4 +1668,16 @@
     }
 </script>
 
+</body>
+                var tipHtml = "<div class='tip'>" +
+                                "<h3>" + tip.tip + "</h3>" +
+                                "<p>" + tip.description + "</p>" +
+                              "</div>";
+                personalizedTipsContainer.innerHTML += tipHtml;
+            });
+        }
+
+        // Call the function to display personalized tips when the page loads
+        window.onload = displayPersonalizedTips;
+    </script>
 </body>
