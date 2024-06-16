@@ -1012,7 +1012,8 @@
         // Call the function to display personalized tips when the page loads
         window.onload = displayPersonalizedTips;
     </script>
-</body><head>
+</body>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Android Ransomware Quiz</title>
