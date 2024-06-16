@@ -1388,132 +1388,31 @@
             </div>
         </div>
     </div>
-</body><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</body>
+
+<!DOCTYPE html>
+<html>
+<head>
     <title>Android Ransomware Quiz</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            margin: 0;
-        }
         .container {
-            margin: 50px auto;
-            width: 80%;
-            max-width: 600px;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .question {
-            font-size: 20px;
-            margin-bottom: 20px;
-        }
-        .options button {
-            display: block;
-            margin: 10px auto;
-            padding: 10px;
-            width: 80%;
-            max-width: 400px;
-            font-size: 16px;
-            cursor: pointer;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
-            border-radius: 5px;
-        }
-        .options button.correct {
-            background-color: #4CAF50;
-            color: white;
-        }
-        .options button.wrong {
-            background-color: #f44336;
-            color: white;
-        }
-        #next {
             display: none;
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
         }
-        .score {
-            font-size: 18px;
-            margin-top: 20px;
-            color: #333;
+        .correct {
+            background-color: green;
         }
-        .result {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 20px;
+        .wrong {
+            background-color: red;
         }
         .pass {
-            color: #4CAF50;
+            color: green;
         }
         .fail {
-            color: #f44336;
-        }
-        #user-info {
-            margin-top: 20px;
-        }
-        #user-info input {
-            padding: 10px;
-            font-size: 16px;
-            width: 80%;
-            max-width: 400px;
-            margin-bottom: 20px;
-        }
-        #user-info button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        #result-container {
-            display: none;
-        }
-        table {
-            width: 100%;
-            margin-top: 20px;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        .form-prompt {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-        .form-prompt a {
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
+            color: red;
         }
     </style>
 </head>
 <body>
-
 <h1>Android Ransomware Quiz</h1>
 
 <div id="user-info">
@@ -1521,10 +1420,10 @@
     <button onclick="startQuiz()">Start Quiz</button>
 </div>
 
-<div id="quiz-container" class="container" style="display:none;">
+<div id="quiz-container" class="container">
     <div class="question" id="question"></div>
     <div class="options" id="options"></div>
-    <button id="next" onclick="nextQuestion()">Next Question</button>
+    <button id="next" onclick="nextQuestion()" style="display:none;">Next Question</button>
     <div class="score" id="score"></div>
     <div class="result" id="result"></div>
 </div>
@@ -1563,7 +1462,7 @@
         { question: "How can users avoid downloading malicious apps that may contain ransomware?", options: ["By downloading apps only from reputable sources like Google Play Store", "By disabling antivirus software", "By installing as many apps as possible to confuse the ransomware", "By never updating their device"], answer: "By downloading apps only from reputable sources like Google Play Store" },
         { question: "What role does social engineering play in Android ransomware attacks?", options: ["It tricks users into installing the ransomware", "It encrypts the user's files", "It decrypts the user's files after payment", "It improves the device's performance"], answer: "It tricks users into installing the ransomware" },
         { question: "Why is code signing used in Android ransomware?", options: ["To make the ransomware appear legitimate", "To increase the speed of encryption", "To reduce the size of the ransomware file", "To ensure the ransomware is open-source"], answer: "To make the ransomware appear legitimate" },
-        { question: "What is the purpose of a ransom note in ransomware attacks?", options: ["To provide instructions on how to decrypt the files for free", "To inform the victim that their files have been encrypted and howto pay the ransom", "To apologize for the inconvenience caused", "To offer a reward for detecting the ransomware"], answer: "To inform the victim that their files have been encrypted and how to pay the ransom" },
+        { question: "What is the purpose of a ransom note in ransomware attacks?", options: ["To provide instructions on how to decrypt the files for free", "To inform the victim that their files have been encrypted and how to pay the ransom", "To apologize for the inconvenience caused", "To offer a reward for detecting the ransomware"], answer: "To inform the victim that their files have been encrypted and how to pay the ransom" },
         { question: "What is string obfuscation in the context of ransomware?", options: ["Hiding the code that encrypts the files", "Encrypting the strings in the ransomware's code to make it harder to analyze", "Making the user interface more user-friendly", "Encrypting the user's passwords"], answer: "Encrypting the strings in the ransomware's code to make it harder to analyze" },
         { question: "How can dynamic code loading benefit ransomware?", options: ["By reducing the size of the initial ransomware payload", "By allowing the ransomware to download additional malicious components at runtime", "By making the ransomware open-source", "By improving the performance of the device"], answer: "By allowing the ransomware to download additional malicious components at runtime" },
         { question: "What is a common feature of ransomware payment instructions?", options: ["Detailed steps on how to purchase cryptocurrency", "Instructions on contacting law enforcement", "Information on how to uninstall the ransomware", "Suggestions for improving device security"], answer: "Detailed steps on how to purchase cryptocurrency" },
@@ -1669,5 +1568,7 @@
 </script>
 
 </body>
+</html>
+
             
 </body>
