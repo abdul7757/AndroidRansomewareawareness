@@ -795,7 +795,7 @@
 
 <h1>Protecting Your Android Device from Ransomware</h1>
 
-<div class="tip">
+<div class="">
     <h3>1. Install Antivirus Software</h3>
     <p>Antivirus software can detect and remove ransomware from your device.</p>
     <p>Recommended antivirus apps:</p>
@@ -1669,15 +1669,5 @@
 </script>
 
 </body>
-                var tipHtml = "<div class='tip'>" +
-                                "<h3>" + tip.tip + "</h3>" +
-                                "<p>" + tip.description + "</p>" +
-                              "</div>";
-                personalizedTipsContainer.innerHTML += tipHtml;
-            });
-        }
-
-        // Call the function to display personalized tips when the page loads
-        window.onload = displayPersonalizedTips;
-    </script>
+            
 </body>
