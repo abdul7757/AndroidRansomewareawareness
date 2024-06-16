@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -90,145 +91,6 @@
         <p>&copy; 2024 Android Ransomware Awareness</p>
     </footer>
 </body>
-
-</body><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ransomware on Android</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-        .image-container {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .infection {
-            color: #FF5722;
-        }
-        .encryption {
-            color: #03A9F4;
-        }
-        .ransom-demand {
-            color: #FFC107;
-        }
-        .threats {
-            color: #673AB7;
-        }
-        .payment {
-            color: #4CAF50;
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <h1>Ransomware on Android</h1>
-    <div class="image-container">
-        <!-- Add your image here -->
-        <img src="Ransom3.jpg" alt="Ransomware on Android">
-    </div>
-    <p>Ransomware on Android is a type of malicious software specifically designed to target Android mobile devices. Similar to ransomware targeting computers, Android ransomware encrypts the files or locks the device, preventing the user from accessing their data or using their device until a ransom is paid. Here's how Android ransomware typically works:</p>
-
-    <h2 class="infection">Infection:</h2>
-    <p>Android ransomware can infect devices through various means, including malicious apps downloaded from third-party app stores, phishing links, or even legitimate-looking apps that have been compromised.</p>
-
-    <h2 class="encryption">Encryption or Locking:</h2>
-    <p>Once installed on the device, the ransomware may encrypt the files stored on the device's storage or lock the device entirely, preventing the user from accessing their data or using their device.</p>
-
-    <h2 class="ransom-demand">Ransom Demand:</h2>
-    <p>After encrypting or locking the device, the ransomware displays a message demanding payment (usually in cryptocurrency) in exchange for providing the decryption key or unlocking the device. The message often includes instructions on how to pay the ransom.</p>
-
-    <h2 class="threats">Threats:</h2>
-    <p>In some cases, Android ransomware may also threaten the user with consequences such as permanent data loss or the dissemination of sensitive information if the ransom is not paid within a certain timeframe.</p>
-
-    <h2 class="payment">Payment:</h2>
-    <p>If the victim decides to pay the ransom, they are instructed on how to do so, typically through cryptocurrency transactions. However, there is no guarantee that paying the ransom will result in the decryption key or device unlock code being provided.</p>
-
-    <p>Android Ransomware</p>
-    <p>© 2024 Android Ransomware Awareness</p>
-</div>
-
-</body><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Impact of Ransomware</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            color: #666;
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-bottom: 20px;
-            padding-left: 20px;
-        }
-        .image-container {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .financial-loss {
-            color: #FF5722;
-        }
-        .data-loss {
-            color: #03A9F4;
-        }
-        .operational-disruption {
-            color: #FFC107;
-        }
-        .reputation-damage {
-            color: #673AB7;
-        }
-    </style>
-</head>
 </html>
 <head>
     <meta charset="UTF-8">
@@ -511,6 +373,148 @@
         formContainer.style.display = 'block';
     }
 </script>
+
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ransomware on Android</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .infection {
+            color: #FF5722;
+        }
+        .encryption {
+            color: #03A9F4;
+        }
+        .ransom-demand {
+            color: #FFC107;
+        }
+        .threats {
+            color: #673AB7;
+        }
+        .payment {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Ransomware on Android</h1>
+    <div class="image-container">
+        <!-- Add your image here -->
+        <img src="Ransom3.jpg" alt="Ransomware on Android">
+    </div>
+    <p>Ransomware on Android is a type of malicious software specifically designed to target Android mobile devices. Similar to ransomware targeting computers, Android ransomware encrypts the files or locks the device, preventing the user from accessing their data or using their device until a ransom is paid. Here's how Android ransomware typically works:</p>
+
+    <h2 class="infection">Infection:</h2>
+    <p>Android ransomware can infect devices through various means, including malicious apps downloaded from third-party app stores, phishing links, or even legitimate-looking apps that have been compromised.</p>
+
+    <h2 class="encryption">Encryption or Locking:</h2>
+    <p>Once installed on the device, the ransomware may encrypt the files stored on the device's storage or lock the device entirely, preventing the user from accessing their data or using their device.</p>
+
+    <h2 class="ransom-demand">Ransom Demand:</h2>
+    <p>After encrypting or locking the device, the ransomware displays a message demanding payment (usually in cryptocurrency) in exchange for providing the decryption key or unlocking the device. The message often includes instructions on how to pay the ransom.</p>
+
+    <h2 class="threats">Threats:</h2>
+    <p>In some cases, Android ransomware may also threaten the user with consequences such as permanent data loss or the dissemination of sensitive information if the ransom is not paid within a certain timeframe.</p>
+
+    <h2 class="payment">Payment:</h2>
+    <p>If the victim decides to pay the ransom, they are instructed on how to do so, typically through cryptocurrency transactions. However, there is no guarantee that paying the ransom will result in the decryption key or device unlock code being provided.</p>
+
+    <p>Android Ransomware</p>
+    <p>© 2024 Android Ransomware Awareness</p>
+</div>
+
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Impact of Ransomware</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .financial-loss {
+            color: #FF5722;
+        }
+        .data-loss {
+            color: #03A9F4;
+        }
+        .operational-disruption {
+            color: #FFC107;
+        }
+        .reputation-damage {
+            color: #673AB7;
+        }
+    </style>
+</head>
 <body>
 
 <div class="container">
@@ -530,7 +534,9 @@
     </div>
 </div>
 
-</body><head>
+</body>
+</html>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prevention and Mitigation</title>
@@ -751,7 +757,7 @@
     </ul>
 </div>
 
-</body>head>
+</body><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protecting Your Android Device from Ransomware</title>
@@ -795,7 +801,7 @@
 
 <h1>Protecting Your Android Device from Ransomware</h1>
 
-<div class="">
+<div class="tip">
     <h3>1. Install Antivirus Software</h3>
     <p>Antivirus software can detect and remove ransomware from your device.</p>
     <p>Recommended antivirus apps:</p>
@@ -961,8 +967,7 @@
     <p style="text-align: center;"><strong>Android Ransomware</strong><br>© 2024 Android Ransomware Awareness</p>
 </div>
 
-</body><head>
-    <meta charset="UTF-8">
+</body>    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personalized Tips for Cybersecurity</title>
     <style>
@@ -1013,7 +1018,7 @@
             </div>
             <!-- You can add more personalized tips here -->
         </div>
-
+    </div>
 
     <!-- Script to fetch personalized tips from the backend -->
     <script>
@@ -1027,76 +1032,144 @@
         // Function to display personalized tips
         function displayPersonalizedTips() {
             var personalizedTipsContainer = document.getElementById("personalizedTips");
-            personalizedTips.forEach(function(tip) {<head>
+            personalizedTips.forEach(function(tip) {
+                var tipHtml = "<div class='tip'>" +
+                                "<h3>" + tip.tip + "</h3>" +
+                                "<p>" + tip.description + "</p>" +
+                              "</div>";
+                personalizedTipsContainer.innerHTML += tipHtml;
+            });
+        }
+
+        // Call the function to display personalized tips when the page loads
+        window.onload = displayPersonalizedTips;
+    </script>
+</body><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Share Cybersecurity Tips</title>
+    <title>Android Ransomware Quiz</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            text-align: center;
             background-color: #f0f0f0;
-            color: #333;
             margin: 0;
             padding: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
+        h1 {
+            background-color: #4CAF50;
+            color: white;
             padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
+            margin: 0;
+        }
+        .container {
+            margin: 50px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #007bff;
+        .question {
+            font-size: 20px;
+            margin-bottom: 20px;
         }
-        .share-buttons {
+        .options button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .options button.correct {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .options button.wrong {
+            background-color: #f44336;
+            color: white;
+        }
+        #next {
+            display: none;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .score {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #333;
+        }
+        .result {
+            font-size: 24px;
+            font-weight: bold;
             margin-top: 20px;
         }
-        .share-button {
-            display: inline-block;
-            margin-right: 10px;
-            border-radius: 4px;
-            overflow: hidden;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-        }
-        .share-button img {
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 2px solid #007bff;
-        }
-        .share-button:hover {
-            transform: scale(1.1);
-        }
-    </style>
-</head>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Android Ransomware Quiz</title>
-    <style>
-        .container {
-            display: none;
-        }
-        .correct {
-            background-color: green;
-        }
-        .wrong {
-            background-color: red;
-        }
         .pass {
-            color: green;
+            color: #4CAF50;
         }
         .fail {
-            color: red;
+            color: #f44336;
+        }
+        #user-info {
+            margin-top: 20px;
+        }
+        #user-info input {
+            padding: 10px;
+            font-size: 16px;
+            width: 80%;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+        #user-info button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #result-container {
+            display: none;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .form-prompt {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .form-prompt a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
+
 <h1>Android Ransomware Quiz</h1>
 
 <div id="user-info">
@@ -1104,10 +1177,10 @@
     <button onclick="startQuiz()">Start Quiz</button>
 </div>
 
-<div id="quiz-container" class="container">
+<div id="quiz-container" class="container" style="display:none;">
     <div class="question" id="question"></div>
     <div class="options" id="options"></div>
-    <button id="next" onclick="nextQuestion()" style="display:none;">Next Question</button>
+    <button id="next" onclick="nextQuestion()">Next Question</button>
     <div class="score" id="score"></div>
     <div class="result" id="result"></div>
 </div>
@@ -1146,7 +1219,7 @@
         { question: "How can users avoid downloading malicious apps that may contain ransomware?", options: ["By downloading apps only from reputable sources like Google Play Store", "By disabling antivirus software", "By installing as many apps as possible to confuse the ransomware", "By never updating their device"], answer: "By downloading apps only from reputable sources like Google Play Store" },
         { question: "What role does social engineering play in Android ransomware attacks?", options: ["It tricks users into installing the ransomware", "It encrypts the user's files", "It decrypts the user's files after payment", "It improves the device's performance"], answer: "It tricks users into installing the ransomware" },
         { question: "Why is code signing used in Android ransomware?", options: ["To make the ransomware appear legitimate", "To increase the speed of encryption", "To reduce the size of the ransomware file", "To ensure the ransomware is open-source"], answer: "To make the ransomware appear legitimate" },
-        { question: "What is the purpose of a ransom note in ransomware attacks?", options: ["To provide instructions on how to decrypt the files for free", "To inform the victim that their files have been encrypted and how to pay the ransom", "To apologize for the inconvenience caused", "To offer a reward for detecting the ransomware"], answer: "To inform the victim that their files have been encrypted and how to pay the ransom" },
+        { question: "What is the purpose of a ransom note in ransomware attacks?", options: ["To provide instructions on how to decrypt the files for free", "To inform the victim that their files have been encrypted and howto pay the ransom", "To apologize for the inconvenience caused", "To offer a reward for detecting the ransomware"], answer: "To inform the victim that their files have been encrypted and how to pay the ransom" },
         { question: "What is string obfuscation in the context of ransomware?", options: ["Hiding the code that encrypts the files", "Encrypting the strings in the ransomware's code to make it harder to analyze", "Making the user interface more user-friendly", "Encrypting the user's passwords"], answer: "Encrypting the strings in the ransomware's code to make it harder to analyze" },
         { question: "How can dynamic code loading benefit ransomware?", options: ["By reducing the size of the initial ransomware payload", "By allowing the ransomware to download additional malicious components at runtime", "By making the ransomware open-source", "By improving the performance of the device"], answer: "By allowing the ransomware to download additional malicious components at runtime" },
         { question: "What is a common feature of ransomware payment instructions?", options: ["Detailed steps on how to purchase cryptocurrency", "Instructions on contacting law enforcement", "Information on how to uninstall the ransomware", "Suggestions for improving device security"], answer: "Detailed steps on how to purchase cryptocurrency" },
@@ -1252,9 +1325,52 @@
 </script>
 
 </body>
-</html>
-
-
+            <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Cybersecurity Tips</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+        }
+        .share-buttons {
+            margin-top: 20px;
+        }
+        .share-button {
+            display: inline-block;
+            margin-right: 10px;
+            border-radius: 4px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .share-button img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid #007bff;
+        }
+        .share-button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
 <body>
     <div class="container">
         <h1>Share Cybersecurity Tips</h1>
@@ -1427,8 +1543,7 @@
                 </div>
             </div>
         </div>
-    </div>
-</body><head>
+    </div><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recovery Stories</title>
@@ -1571,5 +1686,4 @@
         </div>
     </div>
 </body>
-
-            
+</body>
