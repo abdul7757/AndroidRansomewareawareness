@@ -1143,7 +1143,7 @@
 
 <div id="user-info">
     <input type="text" id="username" placeholder="Enter your name">
-    <button onclick="startQuiz()">Start Quiz</button>
+    
 </div>
 
 <div id="quiz-container" class="container" style="display:none;">
