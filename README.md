@@ -104,12 +104,7 @@
             margin: 0;
             padding: 0;
         }
-        h1 {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            margin: 0;
-        }
+      
         .container {
             margin: 50px auto;
             width: 80%;
@@ -224,12 +219,6 @@
 </head>
 <body>
 
-<h1>Android Ransomware Quiz</h1>
-
-<div id="user-info">
-    <input type="text" id="username" placeholder="Enter your name">
-    <button onclick="startQuiz()">Start Quiz</button>
-</div>
 
 <div id="quiz-container" class="container" style="display:none;">
     <div class="question" id="question"></div>
@@ -1134,10 +1123,6 @@
 <body>
 
 
-<div id="user-info">
-    <input type="text" id="username" placeholder="Enter your name">
-    
-</div>
 
 <div id="quiz-container" class="container" style="display:none;">
     <div class="question" id="question"></div>
