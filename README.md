@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -458,7 +458,6 @@
 </div>
 
 </body>
-</html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -535,7 +534,7 @@
 </div>
 
 </body>
-</html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -967,7 +966,8 @@
     <p style="text-align: center;"><strong>Android Ransomware</strong><br>© 2024 Android Ransomware Awareness</p>
 </div>
 
-</body>    <meta charset="UTF-8">
+</body>   
+ 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personalized Tips for Cybersecurity</title>
     <style>
@@ -1326,51 +1326,7 @@
 
 </body>
             <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Share Cybersecurity Tips</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #007bff;
-        }
-        .share-buttons {
-            margin-top: 20px;
-        }
-        .share-button {
-            display: inline-block;
-            margin-right: 10px;
-            border-radius: 4px;
-            overflow: hidden;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-        }
-        .share-button img {
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 2px solid #007bff;
-        }
-        .share-button:hover {
-            transform: scale(1.1);
-        }
-    </style>
-</head>
+    
 <body>
     <div class="container">
         <h1>Share Cybersecurity Tips</h1>
